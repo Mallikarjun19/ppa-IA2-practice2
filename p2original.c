@@ -22,7 +22,7 @@ int check_scalene(int a,int b,int c)
 void output(int a,int b,int c)
 {
   int r;
-  if (r=0)
+  if (r=1)
   {
     printf("the triangle with sides %d,%d and %d is not scalene",a,b,c);
   }
