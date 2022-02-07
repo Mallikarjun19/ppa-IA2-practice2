@@ -1,1 +1,8 @@
+enter the length of side of the triangle
+5
+enter the length of side of the triangle
+6
+enter the length of side of the triangle
+4
+the triangle with sides 5,6 and 4 is scalene,a,b,c 
 
