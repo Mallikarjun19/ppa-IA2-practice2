@@ -39,4 +39,3 @@ void main()
   z=input_side();
  check_scalene(x,y,z);
   output(x,y,z);
-}
