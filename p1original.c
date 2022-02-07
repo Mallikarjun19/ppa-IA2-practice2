@@ -18,3 +18,4 @@ void main()
   input(&x,&y);
   find_area(x,y,&z);
   output(x,y,z);
+}
