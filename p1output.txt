@@ -1,1 +1,4 @@
+enter the base and height of triangle
+2.0 3.0
+the area of triangle is 3.000000 
 
