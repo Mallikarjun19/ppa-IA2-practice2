@@ -1,1 +1,4 @@
+enter a number
+8
+8 is a composite number 
 
