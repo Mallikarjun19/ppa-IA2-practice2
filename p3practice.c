@@ -2,31 +2,31 @@
 int input_number()
 {
   int a;
-  printf("enter a number\n");
+  printf("enter the number\n");
   scanf("%d",&a);
   return a;
 }
 int is_composite(int n)
 {
   int i,count=0;
-  for(i=2;i<n;i++)
-  {
-    if(n%i==0)
-    {
-      count=count+1;
-    }
-  }
+ for(i=1;i<=n;i++)
+   {
+     if(n%i==0)
+     {
+       count=count+1;
+      }
+   }
   return count;
 }
-void output(int n,int count)
+void output(int n,int composite)
 {
-  if(count>0)
+  if (composite==2)
   {
-    printf("%d is a composite number",n);
+    printf("the given number %d is not a composite number",n);
   }
   else
   {
-    printf("%d is not a composite number",n);
+   printf("the given number %d is a composite number",n); 
   }
 }
 void main()

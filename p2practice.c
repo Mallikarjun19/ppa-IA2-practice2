@@ -2,13 +2,13 @@
 int input_side()
 {
   int a;
-  printf("enter the length of side of the triangle\n");
-  scanf("%d",&a);
+ printf("enter the length of side of triangle");
+  scanf("%d",a);
   return a;
 }
 int check_scalene(int a,int b,int c)
 {
-  int r;
+int r;
   if(a==b==c)
   {
     r=1;
@@ -22,14 +22,15 @@ int check_scalene(int a,int b,int c)
 void output(int a,int b,int c)
 {
   int r;
-  if (r=1)
-  {
-    printf("the triangle with sides %d,%d and %d is not scalene",a,b,c);
-  }
+ if r=0
+   {
+     printf("the triangle of sides %d,%d and %d forms a scalene triangle",a,b,c);
+   }
   else
   {
-    printf("the triangle with sides %d,%d and %d is scalene,a,b,c",a,b,c);
+    printf("the triangle of sides %d,%d and %d does not form a scalene triangle",a,b,c);
   }
+  
 }
 void main()
 {
