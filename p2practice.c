@@ -3,7 +3,7 @@ int input_side()
 {
   int a;
  printf("enter the length of side of triangle");
-  scanf("%d",a);
+  scanf("%d",&a);
   return a;
 }
 int check_scalene(int a,int b,int c)
@@ -22,7 +22,7 @@ int r;
 void output(int a,int b,int c)
 {
   int r;
- if r=0
+ if (r=0)
    {
      printf("the triangle of sides %d,%d and %d forms a scalene triangle",a,b,c);
    }

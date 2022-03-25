@@ -9,7 +9,7 @@ int input_side()
 int check_scalene(int a,int b,int c)
 {
   int r;
-  if(a==b==c)
+  if(a!=b!=c!=a)
   {
     r=1;
   }
@@ -24,11 +24,11 @@ void output(int a,int b,int c)
   int r;
   if (r=1)
   {
-    printf("the triangle with sides %d,%d and %d is not scalene",a,b,c);
+    printf("the triangle with sides %d,%d and %d is scalene",a,b,c);
   }
   else
   {
-    printf("the triangle with sides %d,%d and %d is scalene,a,b,c",a,b,c);
+    printf("the triangle with sides %d,%d and %d is not scalene",a,b,c);
   }
 }
 void main()
